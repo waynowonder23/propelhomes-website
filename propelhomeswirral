@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--navy:#08172a;--navy2:#102641;--blue:#1597ff;--blue2:#0879dc;--ink:#102036;--muted:#637187;--soft:#f3f7fb;--line:#e0e8f1;--white:#fff;--radius:18px;--shadow:0 18px 50px rgba(8,23,42,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;font-family:'DM Sans',Arial,sans-serif;color:var(--ink);line-height:1.6}h1,h2,h3,strong{font-family:Manrope,'DM Sans',sans-serif}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2.5rem,5.5vw,4.65rem);line-height:1.04;letter-spacing:-.055em;margin-bottom:22px;color:white}h1 span{color:var(--blue)}h2{font-size:clamp(2rem,3.5vw,3rem);line-height:1.12;letter-spacing:-.04em;margin-bottom:18px}h3{letter-spacing:-.025em}.container{width:min(1160px,calc(100% - 44px));margin-inline:auto}.site-header{position:sticky;top:0;z-index:10;background:rgba(6,19,35,.97);border-bottom:1px solid rgba(255,255,255,.12);backdrop-filter:blur(14px)}.nav-wrap{display:flex;align-items:center;justify-content:space-between;min-height:78px;gap:28px}.brand{display:flex;align-items:center;gap:10px;color:white;text-decoration:none;flex-shrink:0}.brand-mark{width:48px;height:48px}.brand-words{display:flex;flex-direction:column;line-height:1}.brand-words strong{font-size:1.48rem;letter-spacing:-.055em}.brand-words strong span{color:var(--blue)}.brand-words small{font-size:.59rem;letter-spacing:.24em;margin-top:7px}.nav-links{display:flex;align-items:center;gap:28px}.nav-links a{color:#e7eef8;text-decoration:none;font-size:.9rem;font-weight:600}.nav-links a:hover{color:var(--blue)}.nav-links .nav-cta{background:var(--blue);color:white;padding:12px 18px;border-radius:10px}.menu-toggle{display:none;background:transparent;color:white;border:0;font-size:1.6rem}.hero{position:relative;isolation:isolate;min-height:620px;background:var(--navy);display:flex;align-items:center;overflow:hidden}.hero-photo{position:absolute;z-index:-2;inset:0 0 0 29%;background:linear-gradient(90deg,var(--navy) 0%,rgba(8,23,42,.94) 9%,rgba(8,23,42,.48) 42%,rgba(8,23,42,.06) 100%),linear-gradient(0deg,rgba(8,23,42,.28),transparent 45%),url('https://images.unsplash.com/photo-160059_input?auto=format&fit=crop&w=2000&q=85');background-image:linear-gradient(90deg,var(--navy) 0%,rgba(8,23,42,.93) 7%,rgba(8,23,42,.48) 43%,rgba(8,23,42,.04) 100%),linear-gradient(0deg,rgba(8,23,42,.22),transparent 45%),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85');background-size:cover;background-position:center}.hero-content{padding-block:78px 58px}.eyebrow{font-size:.76rem;letter-spacing:.2em;font-weight:800;margin-bottom:18px;color:#d9e8fa}.eyebrow.blue{color:var(--blue2)}.hero-copy{font-size:1.12rem;line-height:1.75;color:#e0e9f4;max-width:575px;margin-bottom:28px}.button-row{display:flex;flex-wrap:wrap;gap:13px}.button{display:inline-flex;justify-content:center;align-items:center;gap:14px;text-decoration:none;font:700 .95rem 'DM Sans',sans-serif;padding:14px 20px;border-radius:10px;border:1px solid transparent;cursor:pointer;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px)}.button-primary{background:var(--blue);color:white}.button-primary:hover{background:var(--blue2)}.button-ghost{border-color:rgba(255,255,255,.6);color:white;background:rgba(7,20,37,.28)}.button-outline{border-color:#b9d9f5;color:var(--blue2);background:white}.hero-points{display:flex;gap:28px;margin-top:38px;flex-wrap:wrap}.hero-points>div{display:flex;gap:12px;align-items:center;color:white}.point-icon{display:grid;place-items:center;background:var(--blue);width:38px;height:38px;border-radius:11px;font-size:1.35rem;font-weight:800}.hero-points b,.hero-points small{display:block}.hero-points b{font-size:.9rem}.hero-points small{color:#b9c8d9;font-size:.78rem}.trust-strip{background:white;border-bottom:1px solid var(--line)}.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;padding-block:32px}.trust-grid>div{display:flex;gap:15px;align-items:flex-start}.feature-icon{display:grid;place-items:center;flex:0 0 50px;height:50px;border-radius:14px;background:#eaf5ff;color:var(--blue);font-size:1.55rem;font-weight:700}.trust-grid h3{font-size:1rem;margin-bottom:6px}.trust-grid p{font-size:.86rem;color:var(--muted);margin:0}.section{padding-block:88px}.section-soft{background:var(--soft)}.section-heading{max-width:700px;margin-bottom:38px}.section-heading>p:last-child{color:var(--muted);font-size:1.05rem}.centered{text-align:center;margin-inline:auto}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service-card{padding:30px;border:1px solid var(--line);border-radius:var(--radius);background:white;box-shadow:0 6px 25px rgba(14,38,64,.035)}.card-number{display:inline-block;color:var(--blue);font-weight:800;letter-spacing:.12em;font-size:.82rem;margin-bottom:30px}.service-card h3{font-size:1.28rem;margin-bottom:12px}.service-card p{color:var(--muted);font-size:.95rem;min-height:100px}.service-card a{color:var(--blue2);text-decoration:none;font-weight:700;font-size:.9rem}.split{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}.muted{color:var(--muted);font-size:1.05rem;line-height:1.8;margin-bottom:28px}.steps{display:grid;gap:25px}.step{display:flex;gap:18px;align-items:flex-start}.step>span{display:grid;place-items:center;width:42px;height:42px;flex-shrink:0;background:#eaf5ff;color:var(--blue2);border-radius:50%;font-weight:800}.step h3{margin-bottom:5px}.step p{color:var(--muted);margin:0}.pricing-section{background:#f6f9fc}.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}.price-card{position:relative;background:white;border:1px solid var(--line);border-radius:var(--radius);padding:30px;display:flex;flex-direction:column;box-shadow:0 8px 30px rgba(10,35,60,.035)}.price-card.featured{border:2px solid var(--blue);box-shadow:var(--shadow)}.popular{position:absolute;top:-14px;right:20px;background:var(--blue);color:white;font-size:.7rem;font-weight:800;letter-spacing:.08em;padding:6px 10px;border-radius:20px}.plan-label{font-size:.72rem;font-weight:800;letter-spacing:.15em;color:var(--blue2);margin-bottom:12px}.price-card h3{font-size:1.35rem;margin-bottom:12px}.price{font:800 2rem Manrope,sans-serif;letter-spacing:-.04em;margin-bottom:10px}.price small{font:500 .85rem 'DM Sans',sans-serif;color:var(--muted);letter-spacing:0}.price-card>p:not(.plan-label){color:var(--muted);min-height:48px}.price-card ul{padding-left:19px;margin:10px 0 26px;color:#39495e;line-height:2}.price-card li::marker{color:var(--blue)}.price-card .button{margin-top:auto}.pricing-note{font-size:.8rem;color:var(--muted);max-width:900px;margin:25px auto 0;text-align:center}.about-section{background:white}.about-box{display:grid;grid-template-columns:150px 1fr;gap:38px;align-items:center;background:var(--navy);color:white;border-radius:24px;padding:54px}.about-box h2{max-width:650px}.about-box p:not(.eyebrow){color:#c7d4e4;max-width:800px}.about-symbol{width:130px;height:130px;border-radius:28px;display:grid;place-items:center;background:linear-gradient(135deg,#1597ff,#0754ad);font:800 2.5rem Manrope,sans-serif;letter-spacing:-.08em;color:white}.small-note{font-size:.85rem;margin-bottom:0}.contact-section{background:var(--navy);color:white}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px;align-items:start}.contact-grid>div>p:not(.eyebrow){color:#bdcadd;max-width:450px}.contact-detail{display:flex;gap:12px;align-items:center;color:#d9e6f5;margin-top:17px}.contact-detail span:first-child{color:var(--blue);font-size:1.3rem}.contact-form{background:white;color:var(--ink);padding:30px;border-radius:var(--radius);display:grid;gap:9px}.contact-form label{font-size:.85rem;font-weight:700;margin-top:7px}.contact-form input,.contact-form select,.contact-form textarea{width:100%;padding:12px 13px;border:1px solid #d4deea;border-radius:9px;background:#fbfdff;color:var(--ink);font:inherit}.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline:2px solid #9bd2ff;border-color:var(--blue)}.full-width{width:100%;margin-top:10px}.form-note,.form-status{font-size:.78rem;color:var(--muted);margin:0}.form-status{color:#126b39}.site-footer{background:#05101e;color:#c7d4e4;padding:30px 0}.footer-wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-wrap p{margin:0;font-size:.85rem}.footer-brand .brand-mark{width:38px;height:38px}.footer-brand .brand-words strong{font-size:1.15rem}.footer-brand .brand-words small{font-size:.48rem}.copyright{color:#8292a7!important;font-size:.76rem!important}
+@media(max-width:900px){.nav-links{gap:16px}.nav-links a{font-size:.82rem}.trust-grid{grid-template-columns:repeat(2,1fr)}.split{gap:42px}.contact-grid{gap:40px}.hero-photo{left:10%;opacity:.78}.hero{min-height:600px}}
+@media(max-width:700px){.container{width:min(100% - 32px,1160px)}.nav-wrap{min-height:70px}.brand-mark{width:40px;height:40px}.brand-words strong{font-size:1.25rem}.brand-words small{font-size:.5rem}.menu-toggle{display:block}.nav-links{display:none;position:absolute;left:0;right:0;top:70px;background:#08172a;padding:18px 22px 24px;flex-direction:column;align-items:stretch;border-top:1px solid #24384f}.nav-links.open{display:flex}.nav-links a{padding:10px 0}.nav-links .nav-cta{text-align:center}.hero{min-height:auto}.hero-photo{inset:0;opacity:.55;background-position:58% center}.hero-content{padding-block:74px 44px}h1{font-size:clamp(2.5rem,12vw,4rem)}.hero-copy{font-size:1rem}.hero-points{gap:16px;flex-direction:column}.trust-grid,.service-grid,.pricing-grid,.split,.contact-grid{grid-template-columns:1fr}.trust-grid{gap:22px}.section{padding-block:62px}.section-heading{margin-bottom:28px}.service-card p{min-height:0}.split{gap:36px}.pricing-grid{gap:24px}.price-card{padding:25px}.about-box{grid-template-columns:1fr;padding:30px;gap:24px}.about-symbol{width:85px;height:85px;font-size:1.8rem;border-radius:20px}.contact-grid{gap:30px}.contact-form{padding:22px}.footer-wrap{align-items:flex-start;flex-direction:column}.hero .button{flex:1}.button-row{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+const menuButton = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav-links');
+menuButton?.addEventListener('click', () => {
+  const isOpen = nav.classList.toggle('open');
+  menuButton.setAttribute('aria-expanded', String(isOpen));
+  menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+});
+document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => {
+  nav.classList.remove('open');
+  menuButton?.setAttribute('aria-expanded', 'false');
+}));
+document.getElementById('year').textContent = new Date().getFullYear();
+
+const form = document.getElementById('contact-form');PROPELHOMES WEBSITE — QUICK START
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Property marketing and lead generation for independent estate agents across Wirral and Liverpool.">
+  <meta name="theme-color" content="#08172a">
+  <title>PropelHomes | Property Marketing That Delivers Leads</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="PropelHomes home">
+        <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-label="PropelHomes house mark">
+          <path d="M7 29 31 8l13 11v-7h8v14l7 6" fill="none" stroke="#1597ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13 30 31 14l20 18v23H13z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M27 55V37h10v18" fill="none" stroke="#1597ff" stroke-width="4"/>
+          <path d="M40 26h7v7" fill="none" stroke="#1597ff" stroke-width="4"/>
+        </svg>
+        <span class="brand-words"><strong>Propel<span>Homes</span></strong><small>PROPERTY MARKETING</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a class="nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-photo" role="img" aria-label="Modern home at dusk"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">MORE EXPOSURE. MORE ENQUIRIES. MORE OPPORTUNITY.</p>
+        <h1>Property marketing<br><span>that moves you forward.</span></h1>
+        <p class="hero-copy">We help independent estate agents across Wirral and Liverpool promote their listings with professional online campaigns and clear enquiry tracking.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#contact">Book a free chat <span>→</span></a>
+          <a class="button button-ghost" href="#how-it-works">See how it works</a>
+        </div>
+        <div class="hero-points">
+          <div><span class="point-icon">↗</span><span><b>More visibility</b><small>Promote selected listings</small></span></div>
+          <div><span class="point-icon">◎</span><span><b>Clear tracking</b><small>Know where enquiries came from</small></span></div>
+          <div><span class="point-icon">✓</span><span><b>Local focus</b><small>Wirral &amp; Liverpool</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><span class="feature-icon">↗</span><div><h3>Property promotion</h3><p>Professional campaign pages and approved listing content.</p></div></div>
+        <div><span class="feature-icon">◎</span><div><h3>Enquiry capture</h3><p>Simple forms that direct prospective buyers or tenants to your team.</p></div></div>
+        <div><span class="feature-icon">▤</span><div><h3>Useful reporting</h3><p>A clear summary of campaign activity and recorded enquiries.</p></div></div>
+        <div><span class="feature-icon">⌖</span><div><h3>Local understanding</h3><p>A focused service for independent agencies in our region.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow blue">WHAT WE DO</p>
+          <h2>Marketing that works alongside your team.</h2>
+          <p>Practical, straightforward support designed around your existing property listings and enquiry process.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="card-number">01</span><h3>Listing campaigns</h3><p>Give selected properties a dedicated, polished online page and promotional assets, using materials approved by your agency.</p><a href="#contact">Discuss a campaign ↗</a></article>
+          <article class="service-card"><span class="card-number">02</span><h3>Enquiry tracking</h3><p>Route prospective buyer and tenant enquiries to your agency and record campaign activity in a clear, manageable way.</p><a href="#contact">Improve your process ↗</a></article>
+          <article class="service-card"><span class="card-number">03</span><h3>Monthly reporting</h3><p>Understand what was published, how people engaged and how many enquiries were recorded through agreed channels.</p><a href="#contact">See reporting options ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container split">
+        <div>
+          <p class="eyebrow blue">SIMPLE BY DESIGN</p>
+          <h2>From listing to enquiry, without the fuss.</h2>
+          <p class="muted">You stay in control of your properties and customer relationships. We agree the campaign, use approved content, and report back on the activity.</p>
+          <a class="button button-primary" href="#contact">Plan a pilot campaign <span>→</span></a>
+        </div>
+        <div class="steps">
+          <div class="step"><span>1</span><div><h3>Choose a property</h3><p>Agree the listing, target audience, materials and campaign goal.</p></div></div>
+          <div class="step"><span>2</span><div><h3>Launch the promotion</h3><p>Publish the approved page and campaign assets through agreed channels.</p></div></div>
+          <div class="step"><span>3</span><div><h3>Review the results</h3><p>Receive a straightforward activity report and discuss next steps.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow blue">STRAIGHTFORWARD PRICING</p>
+          <h2>Start small. Prove the value.</h2>
+          <p>Introductory packages to discuss with your agency. The final scope and price are agreed before work begins.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card"><p class="plan-label">ONE-OFF PILOT</p><h3>Campaign Starter</h3><div class="price">£99 <small>/ campaign</small></div><p>Test the process on a selected property.</p><ul><li>One agreed property page</li><li>Approved listing content</li><li>Enquiry route setup</li><li>Campaign summary</li></ul><a class="button button-outline" href="#contact">Ask about a pilot</a></article>
+          <article class="price-card featured"><div class="popular">ONGOING SUPPORT</div><p class="plan-label">MONTHLY</p><h3>Listing Partner</h3><div class="price">£149 <small>/ month</small></div><p>Consistent promotion and reporting for your agency.</p><ul><li>Agreed monthly campaign scope</li><li>Listing promotion support</li><li>Enquiry tracking</li><li>Monthly activity report</li></ul><a class="button button-primary" href="#contact">Discuss monthly support</a></article>
+          <article class="price-card"><p class="plan-label">PERFORMANCE OPTION</p><h3>Lead Add-on</h3><div class="price">By agreement</div><p>For suitable campaigns where qualifying leads can be defined and lawfully referred.</p><ul><li>Written lead definition</li><li>Duplicate and invalid lead rules</li><li>Transparent tracking</li><li>Compliance review first</li></ul><a class="button button-outline" href="#contact">Discuss eligibility</a></article>
+        </div>
+        <p class="pricing-note">Prices are introductory proposals, not a guarantee of results. Advertising spend, third-party costs and any additional work are excluded unless agreed. Performance-based referrals are subject to legal and regulatory review before launch.</p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-box">
+        <div class="about-symbol">PH</div>
+        <div><p class="eyebrow">LOCAL. PRACTICAL. TRANSPARENT.</p><h2>A marketing partner for independent agencies.</h2><p>PropelHomes is being built to help estate agents give their listings professional online promotion and make it easier to track enquiries. We start with a clear scope, honest reporting and no unsupported promises about sales or lead volumes.</p><p class="small-note">We work with agency-approved listing information and agreed customer enquiry routes.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">LET'S TALK</p><h2>Want to try a property campaign?</h2><p>Tell us a little about your agency and what you want to improve. This demo form opens a draft email in your email app; add your real business email before publishing.</p><div class="contact-detail"><span>⌖</span><span>Wirral &amp; Liverpool, UK</span></div><div class="contact-detail"><span>✉</span><span>Replace with your business email before launch</span></div></div>
+        <form id="contact-form" class="contact-form">
+          <label for="name">Your name</label><input id="name" name="name" required placeholder="Name">
+          <label for="agency">Agency</label><input id="agency" name="agency" required placeholder="Estate agency name">
+          <label for="email">Work email</label><input id="email" name="email" type="email" required placeholder="you@agency.co.uk">
+          <label for="goal">What would you like help with?</label><select id="goal" name="goal"><option>Property promotion</option><option>Enquiry tracking</option><option>Monthly marketing</option><option>Lead referral discussion</option></select>
+          <label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Tell us about your goals"></textarea>
+          <button class="button button-primary full-width" type="submit">Prepare enquiry email →</button>
+          <p class="form-note">Demo only: this form uses your device's email app and is not a hosted form service.</p>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-wrap"><a class="brand footer-brand" href="#home"><svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M7 29 31 8l13 11v-7h8v14l7 6" fill="none" stroke="#1597ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 30 31 14l20 18v23H13z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/><path d="M27 55V37h10v18" fill="none" stroke="#1597ff" stroke-width="4"/></svg><span class="brand-words"><strong>Propel<span>Homes</span></strong><small>PROPERTY MARKETING</small></span></a><p>Property marketing for independent agents.</p><p class="copyright">© <span id="year"></span> PropelHomes. Demo website — business details to be confirmed.</p></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
+Files:
+- index.html: main website
+- styles.css: responsive styling
+- script.js: mobile menu and demo contact form
+- assets/propelhomes-logo.svg: scalable logo
+- assets/favicon.svg: browser icon
+- assets/homepage-concept.png: visual homepage concept
+
+PREVIEW:
+Open index.html in a browser. The hero/property images use external Unsplash image URLs, so internet access is needed for those images. Google Fonts also load online.
+
+BEFORE PUBLISHING:
+1. Replace REPLACE-WITH-YOUR-EMAIL@example.com in script.js with your real business email.
+2. Update the contact details and business identity in index.html.
+3. Verify the name PropelHomes is available and not confusingly similar to an existing business/trade mark before committing to it.
+4. The enquiry form currently opens the visitor's email app; it is not a hosted form handler.
+5. The property marketing prices are proposed introductory prices. Review them before launch.
+6. Get written permission for property photographs and listing details.
+7. Check legal/regulatory requirements before charging for referrals or handling buyer/tenant leads.
+8. Publish the folder to a static host such as GitHub Pages or Netlify. This ZIP does not publish the website for you.
+
+No real property listings or verified client results are claimed on this demo site.
+
+form.addEventListener('submit', event => {
+  event.preventDefault();
+  const data = new FormData(form);
+  const subject = encodeURIComponent('PropelHomes enquiry from ' + data.get('agency'));
+  const body = encodeURIComponent(
+    'Name: ' + data.get('name') + '\n' +
+    'Agency: ' + data.get('agency') + '\n' +
+    'Email: ' + data.get('email') + '\n' +
+    'Interest: ' + data.get('goal') + '\n\n' +
+    'Message:\n' + (data.get('message') || '(No additional message)')
+  );
+  // Replace this placeholder with the actual business email before publishing.
+  const recipient = 'REPLACE-WITH-YOUR-EMAIL@example.com';
+  document.getElementById('form-status').textContent =
+    'Your email app should open with the enquiry drafted. Replace the demo recipient in script.js before launch.';
+  window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
+});
